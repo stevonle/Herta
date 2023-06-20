@@ -5,19 +5,27 @@
 }
 
 body {
-    background-color: bisque;
+    background-image: url("pic/space.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 #kuru-container {
     width: 600px;
     height: 200px;
-    background-color: aquamarine;
-    position: relative;
+    background-color: aqua;
 }
 
 #herta-sprite {
     background-color: azure;
     width: 200px;
     position: absolute;
+}
+
+#btn-container {
+    background-color: yellowgreen;
 }
